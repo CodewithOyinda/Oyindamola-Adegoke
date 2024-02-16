@@ -6,6 +6,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Feeds from './pages/Feeds';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/feeds" element={<Feeds />} />
         <Route path="/footer" element={<Footer />} />
+        <Route path="/header" element={<Header />} />
       </Routes>
     </Router>
   )

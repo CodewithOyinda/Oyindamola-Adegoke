@@ -2,10 +2,12 @@ import React from 'react'
 import wave from './assets/hand-wave.svg';
 import oyinda from './assets/oyinda.png';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 import present from './assets/About.svg';
 const About = () => {
   return (
     <>
+    <Header/>
     <div className='flex ml-[100px] mr-[100px] justify-between'>
         <div className='h-[428px] w-[428px]'>
         <div className='flex'>

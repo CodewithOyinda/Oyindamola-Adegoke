@@ -1,6 +1,7 @@
 import React from 'react'
 import background from './assets/bg-image.jpg';
 import oyinda from './assets/oyinda.png';
+import vector from './assets/Vector.svg'
 import { MdPermContactCalendar, MdShoppingBag } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -17,7 +18,7 @@ const LandingPage = () => {
             </div>
         </div>
         <div className='ml-[100px]'>
-            <p className='text-[56px] font-[700]'>Oyindamola Adegoke</p>
+            <p className='text-[56px] font-[700]'>Oyindamola Adegoke</p><img src={vector} alt='vector'/>
             <p className='text-[24px] font-[400] pt-[20px]'>I build visually stunning and interactive websites, and I love what I do.</p>
             <div className='flex gap-[4rem] pt-[20px]'>
                 <p className='text-[24px] font-[400] text-[#7E7E7E] flex justify-center items-center gap-[1rem]'><MdShoppingBag /> Frontend Developer</p>

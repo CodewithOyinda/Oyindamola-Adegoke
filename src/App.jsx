@@ -7,6 +7,7 @@ import Resume from './pages/Resume';
 import Feeds from './pages/Feeds';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Nav from './components/Nav';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/feeds" element={<Feeds />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/header" element={<Header />} />
+        <Route path="/nav" element={<Nav />} />
       </Routes>
     </Router>
   )

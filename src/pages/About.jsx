@@ -5,7 +5,7 @@ import present from './assets/About.svg';
 const About = () => {
   return (
     <>
-    <div className='flex ml-[100px] mr-[100px] justify-between'>
+    <div className='flex ml-[100px] mr-[100px] justify-between mt-[50px]'>
         <div className='h-[428px] w-[428px]'>
         <div className='flex'>
             <p className='text-[30px] font-[600] pb-[30px]'>Hello</p>
@@ -22,7 +22,7 @@ const About = () => {
     <div className='ml-[100px] mr-[100px] pt-[50px]'>
         <p className='text-[25px] pb-[30px]'>Past</p>
         <p className='text-[20px]'>I was born and brought up in Niger state, Nigeria. My childhood was filled with joyful moments of play, quality time with my family, and the regularity of school and church. The fond memories of those times are precious to me.
-As I grew up, I developed a strong interest in cooking, which eventually led me to pursue a degree in food science and technology.
+As I grew up, I developed a strong interest in cooking, which eventually led me to pursue a degree in Food Science and Technology.
 It was during my time at university that I also discovered my talent for makeup artistry, and I realized my deep passion for enhancing the beauty of things.</p>
     </div>
     <div className='ml-[100px] mr-[100px] pt-[50px]'>

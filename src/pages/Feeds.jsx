@@ -2,7 +2,9 @@ import React from 'react'
 
 const Feeds = () => {
   return (
-    <div>Feeds</div>
+    <div className='mt-[50px] ml-[100px] mr-[100px]'>
+    Feeds
+    </div>
   )
 }
 

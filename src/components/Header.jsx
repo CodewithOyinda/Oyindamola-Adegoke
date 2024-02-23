@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='flex'>
         <div className='flex gap-[1rem] text-[24px]'>
-            <img src={vector} alt='vector'/>
+            <img src={vector} alt='vector' className='w-[50px]'/>
             <p>Oyindamola Adegoke</p>
         </div>
     </div>

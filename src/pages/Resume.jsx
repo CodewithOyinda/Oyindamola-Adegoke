@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className='mt-[50px] ml-[100px] mr-[100px]'>Resume</div>
   )
 }
 

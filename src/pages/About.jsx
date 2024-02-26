@@ -40,7 +40,7 @@ It's a dynamic field that constantly challenges me to learn and grow, and I coul
     </div>
     <div className='ml-[100px] mr-[100px] pt-[50px]'>
         <p className='text-[20px] font-[600]'>Stay awesome!</p>
-        <p className='text-[20px]'>Oyindamola Adegoke</p>
+        <p className='text-[20px] font-squarePeg'>Oyindamola Adegoke</p>
     </div>
     </>
   )

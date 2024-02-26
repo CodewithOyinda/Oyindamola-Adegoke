@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      squarePeg: ['Square Peg', 'cursive'],
+    }
   },
   plugins: [],
 }

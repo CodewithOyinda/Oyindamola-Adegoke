@@ -7,9 +7,9 @@ const About = () => {
     <>
     <div className='flex ml-[100px] mr-[100px] justify-between mt-[50px]'>
         <div className='h-[428px] w-[428px]'>
-        <div className='flex'>
+        <div className='flex gap-[1rem] items-center align-middle'>
             <p className='text-[30px] font-[600] pb-[30px]'>Hello</p>
-            <img src={wave} alt='wave'/>
+            <img src={wave} alt='wave' className='w-[40px] mt-[-15px]'/>
         </div>
         <div className='text-[22px]'>
             <p>I am <span className='font-[600]'>Adegoke Deborah Oyindamola,</span> and my name carries significant meanings. <span className='font-[600]'>"Adegoke"</span> symbolizes <span className='font-[600]'>"The crown has been exalted"</span>, and <span className='font-[600]'>"Oyindamola"</span> represents <span className='font-[600]'>"Honey mixed with wealth".</span> While I am commonly known as <span className='font-[600]'>"Oyindamola",</span> I use <span className='font-[600]'>"Deborah"</span> professionally as it is my first name.</p>

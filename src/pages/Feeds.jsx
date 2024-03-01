@@ -6,6 +6,21 @@ import fest from './assets/Devfest22.png';
 import avatar from './assets/Avatar.png';
 
 const Feeds = () => {
+
+  const toggleFullScreen = (id) => {
+      
+    const element = document.getElementById(id)
+    
+    const isFullScreen = document.fullscreenElement
+    console.log(isFullScreen);
+   if (isFullScreen) {
+     document.exitFullscreen()
+   }else {
+    element.requestFullscreen();
+   }
+
+   };
+
   return (
     <div className='mt-[50px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
        <div className='flex gap-[1.5rem] mt-[60px]'>
@@ -19,7 +34,7 @@ const Feeds = () => {
                 <p className='md:text-[20px] text-[16px]'>The sessions were incredibly engaging and provided valuable insights, particularly regarding Blockchain/Web3 technology. Panelists emphasized the wide-ranging applications of blockchain beyond cryptocurrency, highlighting its potential for solving diverse problems.</p>
                 <p className='md:text-[20px] text-[16px]'>Additionally, discussions underscored the importance of understanding consumer mindset for successful blockchain adoption, shifting focus from solely manufacturer-centric perspectives. </p>
                 <p className='md:text-[20px] text-[16px]'>I also had the opportunity to gain knowledge from industry experts like Sam Harvard, who shared inspiring insights on innovation and its relevance in the tech sector. Overall, the event was enlightening, providing ample opportunities for networking, learning, and personal growth.</p>
-                <div>
+                <div onClick={() => toggleFullScreen('xplore')} id='xplore'>
                     <img src={xplore} alt='xplore' className='rounded-[1rem] w-[649px] h-[400px] mt-[30px]'/>
                 </div>
             </div>
@@ -38,7 +53,7 @@ const Feeds = () => {
                 <p className='md:text-[20px] text-[16px]'>The best way to learn is teach.</p>
                 <p className='md:text-[20px] text-[16px]'>There's more than one path</p>
                 <p className='md:text-[20px] text-[16px]'>One day or Day one, you decide!</p>
-                <div>
+                <div  onClick={() => toggleFullScreen('devfestone')} id='devfestone'>
                     <img src={devfest} alt='devfest' className='rounded-[1rem] w-[649px] h-[400px] mt-[30px]'/>
                 </div>
             </div>
@@ -54,7 +69,7 @@ const Feeds = () => {
                 <p className='md:text-[20px] text-[16px]'>The Power of Intentionality.</p>
                 <p className='md:text-[20px] text-[16px]'>Your design super powers are the qualities that makes you stand out as a designer "Your unique selling point".</p>
                 <p className='md:text-[20px] text-[16px]'>Education is a powerful tool that enables women access numerous opportunities. </p>
-                <div>
+                <div  onClick={() => toggleFullScreen('wtm')} id='wtm'>
                     <img src={wtm} alt='wtm' className='rounded-[1rem] w-[649px] h-[400px] mt-[30px]'/>
                 </div>
             </div>
@@ -66,11 +81,9 @@ const Feeds = () => {
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span>22 October 2022</p>
                 <p className='md:text-[30px] text-[18px] font-[600] pb-[20px]'>DevFest2022</p>
-                <p className='md:text-[20px] text-[16px]'>The International Women's Day event was hosted in Abuja by Women Techmakers. The speakers were exceptional, and here are some of the key tips I gleaned from the program:</p>
-                <p className='md:text-[20px] text-[16px]'>The Power of Intentionality.</p>
-                <p className='md:text-[20px] text-[16px]'>Your design super powers are the qualities that makes you stand out as a designer "Your unique selling point".</p>
-                <p className='md:text-[20px] text-[16px]'>Education is a powerful tool that enables women access numerous opportunities. </p>
-                <div>
+                <p className='md:text-[20px] text-[16px]'> Participating in Devfest 2022 marked my introduction to the tech event scene. It provided an excellent platform for connecting with fellow developers. Among the many speakers, Ada Nduka Oyom, the founder of She Code Africa, shared a profound lesson that resonated with me: the significance of communities as drivers of growth in the tech field. </p>
+                <p className='md:text-[20px] text-[16px]'>She highlighted that communities consist of individuals with similar aspirations working towards common goals. This insight has profoundly influenced my career trajectory, serving as a driving force in my professional development.</p>
+                <div  onClick={() => toggleFullScreen('devfesttwo')} id='devfesttwo'>
                     <img src={fest} alt='devfest' className='rounded-[1rem] w-[649px] h-[400px] mt-[30px]'/>
                 </div>
             </div>

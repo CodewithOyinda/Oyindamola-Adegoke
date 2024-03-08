@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 
 const LandingPage = () => {
   return (
-    <div className='md:w-full'>
+    <div className='md:w-full dark:text-gray-100 dark:bg-slate-900 duration-100'>
         <Header />
         <div>
             <img src={background} alt='background' className='md:h-[416px] md:w-full  h-[200px]' style={{ objectFit: 'cover', width: '100%' }}/>

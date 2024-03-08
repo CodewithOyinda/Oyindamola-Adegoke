@@ -28,7 +28,7 @@ const Projects = () => {
    };
     
   return (
-    <div className='mt-[50px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
+    <div className='md:mt-[50px] mt-[20px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
         <div className='flex gap-[1.5rem]'>
            <div>
             <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>

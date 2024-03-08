@@ -5,7 +5,7 @@ import present from './assets/About.svg';
 const About = () => {
   return (
     <>
-    <div className='flex md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px] justify-between mt-[50px]'>
+    <div className='flex md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px] justify-between md:mt-[50px] mt-[20px]'>
         <div className='h-[428px] w-[428px]'>
         <div className='flex gap-[1rem] items-center align-middle'>
             <p className='md:text-[30px] text-[18px] font-[600] pb-[30px]'>Hello</p>

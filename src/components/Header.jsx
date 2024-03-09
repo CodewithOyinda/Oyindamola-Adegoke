@@ -65,7 +65,7 @@ darkQuery.addEventListener('change', (e) =>{
             <img src={vector} alt='vector' className='md:w-[50px] w-[30px]'/>
             <p className=' font-squarePeg md:text-[30px] text-[22px]'>Oyindamola Adegoke</p>
         </div>
-        <div className='top-1 right-10 duration-100 dark:bg-slate-800 border border-[#e6e6e6] rounded flex items-center'>
+        <div className='top-1 right-10 duration-100 dark:bg-slate-800 border border-[#e6e6e6] md:border-visible border-hidden rounded flex items-center'>
           {
             options?.map(opt=>(
               <button 

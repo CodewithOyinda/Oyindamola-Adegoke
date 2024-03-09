@@ -41,7 +41,7 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[400px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 25 November 2023</p>
@@ -60,7 +60,7 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[400px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 29 April 2023 </p>
@@ -76,7 +76,7 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[400px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span>22 October 2022</p>

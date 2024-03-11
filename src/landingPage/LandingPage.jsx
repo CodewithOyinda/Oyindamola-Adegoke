@@ -27,7 +27,7 @@ const LandingPage = () => {
             <p className='md:text-[24px] text-[16px] font-[400] pt-[20px]'>I build visually stunning and interactive websites, and I love what I do.</p>
             <div className='flex gap-[4rem] pt-[20px]'>
                 <p className='md:text-[24px] text-[12px] font-[400] text-[#7E7E7E] flex justify-center items-center gap-[1rem]'><MdShoppingBag /> Frontend Developer</p>
-                <p className='md:text-[24px] text-[12px] font-[400] text-[#7E7E7E] flex justify-center items-center gap-[1rem]'><FaLocationDot /> Abuja, Nigeria</p>
+                <p className='md:text-[24px] text-[12px] font-[400] text-[#7E7E7E] flex justify-center items-center gap-[1rem]'><FaLocationDot />Lagos, Nigeria</p>
             </div>
         </div>
         <Nav/>

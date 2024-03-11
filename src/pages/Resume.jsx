@@ -6,7 +6,7 @@ const Resume = () => {
       <p className='md:text-[20px] text-[16px]'>Passionate Web Developer Volunteer & Assistant Team Lead at RenderFx, a pioneering fintech startup specializing in currency exchange solutions.</p>
       <p className='md:text-[20px] text-[16px]'>Led a dedicated team of volunteers to successfully develop and launch a website landing page, gaining invaluable startup experience while refining problem-solving and collaborative skills.</p>
       <p className='md:text-[20px] text-[16px]'> Actively engaged in live projects to enhance frontend development expertise. Pursuing entry-level opportunities within medium to large-sized companies, seeking environments that foster personal growth and offer clear career paths.</p>
-      <p className='md:text-[25px] pb-[30px] text-[18px] font-[600] mt-[20px]'>Skills</p>
+      <p className='md:text-[25px] md:pb-[30px] pb-[10px] text-[18px] font-[600] mt-[20px]'>Skills</p>
       <div className='flex gap-[4rem]'>
       <ul className='md:text-[20px] text-[16px]'>
         <li>HTML</li>
@@ -28,12 +28,12 @@ const Resume = () => {
         <li>Effective Communication</li>
       </ul>
       </div>
-      <p className='md:text-[25px] pb-[30px] text-[18px] font-[600] mt-[20px]'>Work Experience</p>
+      <p className='md:text-[25px] md:pb-[30px] pb-[10px] text-[18px] font-[600] mt-[20px]'>Work Experience</p>
       <div className='flex justify-between md:text-[20px] text-[16px] font-[600]'>
         <p>RenderFx Ltd.</p>
         <p>November 2023 - Present</p>
       </div>
-      <div className='flex justify-between md:text-[20px] text-[16px] font-[600]'>
+      <div className='flex justify-between md:text-[20px] text-[16px] font-[600] pb-[15px]'>
        <p>Web Developer (Volunteer)</p>
        <p>London, United Kingdom (Remote)</p>
       </div>
@@ -45,10 +45,10 @@ const Resume = () => {
       <p className='md:text-[20px] text-[16px]'>- Implement SEO best practices and optimize websites for maximum speed and scalability.</p>
       <p className='md:text-[20px] text-[16px]'>- Ensure websites are secure by implementing best security practises and staying updated on potential vulnerabilities.</p>
       <div className='flex justify-between md:text-[20px] text-[16px] font-[600] mt-[20px]'>
-        <p>Techies Collab and Upskill on Live Project</p>
+        <p>Techies Collab and Upskill</p>
         <p>November 2023 - Present</p>
       </div>
-      <div className='flex justify-between md:text-[20px] text-[16px] font-[600]'>
+      <div className='flex justify-between md:text-[20px] text-[16px] font-[600] pb-[15px]'>
        <p>Frontend Developer</p>
        <p>Nigeria (Remote)</p>
       </div>
@@ -65,7 +65,7 @@ const Resume = () => {
         <p>National Park Service</p>
         <p>July 2022 - November 2023</p>
       </div>
-      <div className='flex justify-between md:text-[20px] text-[16px] font-[600]'>
+      <div className='flex justify-between md:text-[20px] text-[16px] font-[600] pb-[15px]'>
        <p>ICT Officer</p>
        <p>Abuja, Nigeria</p>
       </div>

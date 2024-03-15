@@ -53,12 +53,12 @@ const Resume = () => {
        <p>Nigeria (Remote)</p>
       </div>
       <div className='md:text-[20px] text-[16px] '>
-      <p>- Write clean, efficient and well-documented code using programming languages such as HTML, CSS, JavaScript and frameworks like React.</p>
-      <p>- Collaborate with designers to translate visual designs into working web pages or applications while ensuring responsiveness and cross-browser compatibility.</p>
-      <p>- Conduct thorough testing of websites and applications to identify and fix bugs, performance issues, or compatibility problems.</p>
+      <p>- Collaborate with cross-functional teams to design, develop, and maintain engaging front-end applications.</p>
+      <p>- Utilize React, Zustand, React-Query, and Axios to create seamless user interfaces.</p>
+      <p>- Write clean and efficient code, demonstrating proficiency in Git</p>
       <p>- Work closely with cross functional teams including designers, UX/UI specialists, and project managers to meet project requirements and deadlines.</p>
-      <p>- Integrate content management sysyems (CMS) and develop custom  plugins or modules as needed.</p>
-      <p>- Implement SEO best practices and optimize websites for maximum speed and scalability.</p>
+      <p>- Actively participate in feature ideation, design and implementation.</p>
+      <p>- Troubleshoot and resolve front-end performance isssues.</p>
       <p>- Ensure websites are secure by implementing best security practises and staying updated on potential vulnerabilities.</p>
       </div>
       <div className='flex justify-between md:text-[20px] text-[16px] font-[600] mt-[20px]'>

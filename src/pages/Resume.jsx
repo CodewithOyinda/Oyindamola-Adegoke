@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Resume = () => {
   return (
@@ -76,7 +77,7 @@ const Resume = () => {
       <p>- Provide advanced technical support to staff.</p>
       </div>
       <div className='flex justify-center items-center mt-[20px]'>
-        <button className='border-2 border-[#fa2b66] md:w-[246px] md:h-[48px] w-[150px] h-[40px] md:text-[20px] text-[16px] text-[#fa2b66] rounded-[8px] '>Download Resume</button>
+        <Link to='https://drive.google.com/file/d/1nvSwLWBIXmAVSdg3fjUmV4D9luovJTaP/view?usp=sharing'><button className='border-2 border-[#fa2b66] md:w-[246px] md:h-[48px] w-[150px] h-[40px] md:text-[20px] text-[16px] text-[#fa2b66] rounded-[8px] '>Download Resume</button></Link>
       </div>
     </div>
   )

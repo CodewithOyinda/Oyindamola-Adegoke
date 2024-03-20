@@ -25,7 +25,11 @@ const Feeds = () => {
     <div className='md:mt-[50px] mt-[20px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
        <div className='flex gap-[1.5rem] md:mt-[60px] mt-[20px] '>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%] object-cover'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 30 November 2023</p>
@@ -41,7 +45,11 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] md:mt-[60px] mt-[20px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%] object-cover'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 25 November 2023</p>
@@ -60,7 +68,11 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] md:mt-[60px] mt-[20px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%] object-cover'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 29 April 2023 </p>
@@ -76,7 +88,11 @@ const Feeds = () => {
         </div>
         <div className='flex gap-[1.5rem] md:mt-[60px] mt-[20px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%] object-cover'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span>22 October 2022</p>

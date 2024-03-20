@@ -31,7 +31,11 @@ const Projects = () => {
     <div className='md:mt-[50px] mt-[20px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
         <div className='flex gap-[1.5rem]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+            src={avatar}
+            alt='avatar'
+            className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 February 2024</p>
@@ -45,7 +49,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 July 2023</p>
@@ -59,7 +67,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 March 2023</p>
@@ -73,7 +85,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 15 April 2023</p>
@@ -87,7 +103,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 Oct 2023</p>
@@ -101,7 +121,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 May 2023</p>
@@ -115,7 +139,11 @@ const Projects = () => {
         </div> 
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 July 2023</p>
@@ -129,7 +157,11 @@ const Projects = () => {
         </div>
         <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
-            <img src={avatar} alt='avatar' className='md:w-[350px] md:h-[150px] w-[350px] h-[50px] rounded-[50%]'/>
+           <img
+           src={avatar}
+           alt='avatar'
+           className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
             </div>
             <div>
                 <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 10 July 2022</p>

@@ -19,7 +19,7 @@ const LandingPage = () => {
         <div className='flex justify-between md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
             <img src={oyinda} alt='oyinda' className='md:w-[202px] md:h-[202px] w-[150px] h-[150px] border-[4px] border-[#fafafa] rounded-[50%] md:mt-[-101px] mt-[-80px]'/>
             <div>
-                <button className='bg-[#FA2B66] text-[#fafafa] md:w-[204px] md:h-[48px] w-[150px] h-[40px] md:text-[24px] text-[16px] rounded-[8px] flex justify-center items-center align-middle gap-[1rem] md:mt-[30px] mt-[10px]'>Contact Me <MdPermContactCalendar className='w-[30px] h-[30px]' /> </button>
+                <button className='bg-[#FA2B66] hover:bg-[#fc6b94] text-[#fafafa] md:w-[204px] md:h-[48px] w-[150px] h-[40px] md:text-[24px] text-[16px] rounded-[8px] flex justify-center items-center align-middle gap-[1rem] md:mt-[30px] mt-[10px]'>Contact Me <MdPermContactCalendar className='w-[30px] h-[30px]' /> </button>
             </div>
         </div>
         <div className='md:ml-[100px] ml-[20px]'>

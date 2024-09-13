@@ -9,6 +9,7 @@ import starwars from './assets/Starwars.png';
 import xoxo from './assets/Xoxo.png';
 import portfolio from './assets/Portfolio.png';
 import netflix from './assets/Netflix.png';
+import tcu from './assets/tcu.png';
 
 
 
@@ -30,6 +31,24 @@ const Projects = () => {
   return (
     <div className='md:mt-[50px] mt-[20px] md:ml-[100px] md:mr-[100px] ml-[20px] mr-[20px]'>
         <div className='flex gap-[1.5rem]'>
+           <div>
+           <img
+            src={avatar}
+            alt='avatar'
+            className='md:max-w-[350px] md:max-h-[150px] max-w-[350px] max-h-[50px] rounded-[50%] object-cover'/>
+
+            </div>
+            <div>
+                <p className='md:text-[22px] text-[16px]'><span className='font-[600]'>Oyindamola .</span> 1 July 2024</p>
+                <p className='md:text-[30px] text-[18px] font-[600] pb-[20px]'>TCU</p>
+                <p className='md:text-[20px] text-[16px]'> Built the official website for Techies Collab and Upskill which was recently introduced to the public. Developed with the following technologies: Frontend; Reactjs, Styling; Tailwind CSS, Backend; Python-Django, Data fetching and state management; Axios, React Hooks, Domain & Hosting; Truehost.</p>
+                <p className='pb-[30px] pt-[30px] md:text-[16px] text-[12px]'>Visit the site by clicking <Link to='https://www.tculive.com/' className='text-[#df5f83]'>here</Link></p>
+                <div onClick={() => toggleFullScreen('timesync-container')} id='timesync-container'>
+                    <img src={tcu} alt='tcu' className='rounded-[1rem]'/>
+                </div>
+            </div>
+        </div>
+        <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
            <img
             src={avatar}
@@ -155,7 +174,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-        <div className='flex gap-[1.5rem] mt-[60px]'>
+        {/* <div className='flex gap-[1.5rem] mt-[60px]'>
            <div>
            <img
            src={avatar}
@@ -172,7 +191,7 @@ const Projects = () => {
                     <img src={netflix} alt='netflix' className='rounded-[1rem]'/>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
